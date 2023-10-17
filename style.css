@@ -1,0 +1,100 @@
+body {
+    background-color: #ffffff;
+    /* max-width: 960px; */
+    border: 1px solid #0a0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/* ナビゲーション */
+nav {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 34px;
+    max-width: 960px;
+    margin: 20px auto 20px auto;
+}
+
+/* リンクの装飾 */
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#home {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+
+/* メイン */
+#mainimg {
+    width: 100%;
+}
+
+#about {
+    border: 1px solid #000;
+}
+
+/* About */
+
+#about {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 20px auto 20px auto;
+}
+
+#about_img > img {
+    border-radius: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+/* works */
+#works {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+.item {
+    /* border: 1px solid #000; */
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ .item img {
+    width: 100%;
+    height: auto;
+
+}  
+
+/* フッター */
+footer {
+    text-align: center;
+}
+
+/* 画面幅が767px以下のとき */
+@media screen and (max-width: 767px) {
+    #works {
+        display: block;
+        justify-content: center;
+    }
+    /* #works > div {
+        width: 100%;
+    }  */
+
+    .item {
+        width: 100%;
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+}
