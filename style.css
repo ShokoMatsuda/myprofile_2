@@ -58,6 +58,7 @@ h1 {
 /* works */
 #works {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px auto 20px auto;
     max-width: 960px;
@@ -83,14 +84,6 @@ footer {
 
 /* 画面幅が767px以下のとき */
 @media screen and (max-width: 767px) {
-    #works {
-        display: block;
-        justify-content: center;
-    }
-    /* #works > div {
-        width: 100%;
-    }  */
-
     .item {
         width: 100%;
         text-align: center;
